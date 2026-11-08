@@ -1,0 +1,27 @@
+{
+  "partner": "FIWARE",
+  "query": "Registry contact completeness",
+  "metrics": {
+    "Public service records": 138,
+    "Seeded context entities": 162,
+    "Integration tests passed": 10
+  },
+  "finding": "Antares stores 138 public service records and 24 organisation entities. End-to-end verification creates a review event, updates the target state and reads it back.",
+  "chart": {
+    "labels": [
+      "1 of 3 fields",
+      "2 of 3 fields",
+      "3 of 3 fields"
+    ],
+    "values": [
+      4,
+      25,
+      109
+    ],
+    "axis": "Records by available address, phone and website fields"
+  },
+  "source": "https://www.hel.fi/palvelukarttaws/rest/v4/unit/?search=kirjasto",
+  "credit": "City of Helsinki Service Map, https://servicemap.hel.fi . CC BY 4.0. No endorsement. Antares v0.2.0 by joinedcontext, EUPL 1.2.",
+  "limitations": "Public registry snapshot, not current operating status. Some units match library-related services rather than a standalone library. Source fields may be incomplete. Review decisions are local prototype annotations, not municipality or business-owner approval. Antares runs in memory. Review projections reset on restart. No full ETSI conformance certification or production authentication is claimed.",
+  "raw_sha256": "e4d4b597a9bbc67c106c5e00516e74715d2654d1c29b3fa8a8d5b1328eaf5f5f"
+}

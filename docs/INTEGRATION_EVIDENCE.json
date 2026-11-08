@@ -1,0 +1,918 @@
+{
+  "broker": "Antares v0.2.0 WASM / local Node shim",
+  "seeded_entities": 162,
+  "libraries": 138,
+  "review_entity": {
+    "id": "urn:ngsi-ld:MrGeniusReview:22765d67-7497-44a6-b6c0-daf9b13c3376",
+    "type": "https://mrgenius.example/vocab/ReviewDecision",
+    "https://mrgenius.example/vocab/target": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:MrGeniusLibrary:8310"
+    },
+    "https://mrgenius.example/vocab/decision": {
+      "type": "Property",
+      "value": "Reviewed"
+    },
+    "https://mrgenius.example/vocab/rationale": {
+      "type": "Property",
+      "value": "Public-source trace checked in local prototype."
+    },
+    "https://mrgenius.example/vocab/scope": {
+      "type": "Property",
+      "value": "Local prototype annotation; no external owner authorization"
+    }
+  },
+  "readback": {
+    "id": "urn:ngsi-ld:MrGeniusLibrary:8310",
+    "type": "https://mrgenius.example/vocab/LibraryServicePoint",
+    "https://mrgenius.example/vocab/managedBy": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:RegistryOrganisation:83e74666-0836-4c1d-948a-4b34a8b90301"
+    },
+    "https://mrgenius.example/vocab/registryModified": {
+      "type": "Property",
+      "value": "2026-11-07T00:32:11"
+    },
+    "https://mrgenius.example/vocab/reviewState": {
+      "type": "Property",
+      "value": "Reviewed"
+    },
+    "https://mrgenius.example/vocab/sourceUrl": {
+      "type": "Property",
+      "value": "https://servicemap.hel.fi/en/unit/8310"
+    },
+    "https://schema.org/addressLocality": {
+      "type": "Property",
+      "value": "Helsinki"
+    },
+    "https://schema.org/name": {
+      "type": "Property",
+      "value": "Vuosaari Library"
+    },
+    "https://schema.org/streetAddress": {
+      "type": "Property",
+      "value": "Mosaiikkitori 2"
+    },
+    "https://schema.org/telephone": {
+      "type": "Property",
+      "value": "+358 9 310 85098"
+    },
+    "https://schema.org/url": {
+      "type": "Property",
+      "value": "http://www.helmet.fi/vuosaarilibrary"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          25.14392,
+          60.20868
+        ]
+      }
+    }
+  },
+  "http_calls": [
+    {
+      "method": "GET",
+      "path": "/ngsi-ld/v1/entities?type=https%3A%2F%2Fmrgenius.example%2Fvocab%2FLibraryServicePoint&limit=1",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/ngsi-ld/v1/entities?type=https%3A%2F%2Fmrgenius.example%2Fvocab%2FLibraryServicePoint&limit=1000",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/ngsi-ld/v1/entities/urn%3Angsi-ld%3AMrGeniusLibrary%3A8310",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/ngsi-ld/v1/entities",
+      "status": 201
+    },
+    {
+      "method": "PATCH",
+      "path": "/ngsi-ld/v1/entities/urn%3Angsi-ld%3AMrGeniusLibrary%3A8310/attrs",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/ngsi-ld/v1/entities/urn%3Angsi-ld%3AMrGeniusLibrary%3A8310",
+      "status": 200
+    }
+  ],
+  "source": "https://www.hel.fi/palvelukarttaws/rest/v4/unit/?search=kirjasto"
+}
